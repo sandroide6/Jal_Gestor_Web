@@ -60,6 +60,37 @@
                 <a href="#" class="btn-primary-outline" style="margin-top: 1.5rem; width: 100%;" onclick="alert('Video tutorial en construcción. ¡Vuelve pronto!')">Ver Tutorial</a>
             </div>
         </div>
+        <!-- Flujo de Trabajo IA -->
+        <div class="workflow-section" style="margin-top: 4rem; text-align: left; background: rgba(255, 255, 255, 0.03); padding: 3rem; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.1); max-width: 900px; margin-left: auto; margin-right: auto; backdrop-filter: blur(10px);">
+            <h3 style="margin-bottom: 1.5rem; color: var(--primary-color); font-size: 1.5rem;">Flujo de Trabajo: Actas con Alta Fidelidad usando IA</h3>
+            <p style="margin-bottom: 2rem; color: var(--text-light);">Sigue este proceso paso a paso para obtener transcripciones precisas y redactar actas de calidad profesional apoyándote en las herramientas complementarias.</p>
+            
+            <div class="steps-container" style="display: flex; flex-direction: column; gap: 2rem;">
+                <div class="step-card" style="display: flex; gap: 1.5rem; align-items: flex-start;">
+                    <div class="step-number" style="background: var(--primary-color); color: white; width: 45px; height: 45px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 1.2rem; flex-shrink: 0;">1</div>
+                    <div>
+                        <h4 style="margin-bottom: 0.5rem; font-size: 1.2rem;">División del Audio Original</h4>
+                        <p style="color: var(--text-light); line-height: 1.6;">Toma el archivo de audio original de la sesión. Si su duración es de 4 horas o más, pásalo por el <strong>Divisor de Audio (Splitter)</strong> para fraccionarlo en partes de máximo 2 horas cada una. Esto evita errores por límites de tamaño en las herramientas de IA.</p>
+                    </div>
+                </div>
+                
+                <div class="step-card" style="display: flex; gap: 1.5rem; align-items: flex-start;">
+                    <div class="step-number" style="background: var(--primary-color); color: white; width: 45px; height: 45px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 1.2rem; flex-shrink: 0;">2</div>
+                    <div>
+                        <h4 style="margin-bottom: 0.5rem; font-size: 1.2rem;">Transcripción Automática</h4>
+                        <p style="color: var(--text-light); line-height: 1.6;">Sube los archivos divididos a <strong>Google Pinpoint</strong>. La plataforma analizará el audio y te entregará la transcripción exacta, la cual puedes descargar en diferentes formatos para usarla en el siguiente paso.</p>
+                    </div>
+                </div>
+
+                <div class="step-card" style="display: flex; gap: 1.5rem; align-items: flex-start;">
+                    <div class="step-number" style="background: var(--primary-color); color: white; width: 45px; height: 45px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 1.2rem; flex-shrink: 0;">3</div>
+                    <div>
+                        <h4 style="margin-bottom: 0.5rem; font-size: 1.2rem;">Cruce y Redacción Final</h4>
+                        <p style="color: var(--text-light); line-height: 1.6;">Toma el borrador inicial de tu acta y las transcripciones obtenidas. Abre <strong>Claude IA</strong> (u <strong>Ollama</strong>) y, mediante un prompt, pídele a la IA que haga un cruce o comparación entre el borrador y la transcripción literal para consolidar un acta final de altísima fidelidad.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
