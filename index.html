@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gestor de Documentos JAL - Automatización y gestión documental.">
+    <title>Gestor de Documentos JAL</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">JAL<span>Docs</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#info">Información de Uso</a></li>
+                <li><a href="tutoriales.html">Tutoriales</a></li>
+                <li><a href="#download" class="btn-primary-outline">Descargar</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header / Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Gestor de Documentos <span>JAL</span></h1>
+            <p class="hero-subtitle">
+                Automatiza la generación de documentos oficiales, gestiona actas de sesión, administra certificados sociales y genera reportes con facilidad y trazabilidad absoluta.
+            </p>
+            <div class="hero-actions">
+                <a href="#download" class="btn-primary">Descargar Ahora</a>
+                <a href="#info" class="btn-secondary">Saber más</a>
+            </div>
+        </div>
+        <div class="hero-image-wrapper">
+            <div class="glass-panel mockup-panel">
+                <div class="mockup-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <div class="mockup-body">
+                    <div class="skeleton-line full"></div>
+                    <div class="skeleton-line width-70"></div>
+                    <div class="skeleton-line width-50"></div>
+                    <div class="skeleton-box">
+                        <div class="skeleton-icon"></div>
+                        <div class="skeleton-text">Generando Documento...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Usage Info Section -->
+    <section id="info" class="section">
+        <div class="section-header">
+            <h2>Información de Uso</h2>
+            <p>Todo lo que necesitas para optimizar la gestión documental de tu entidad, organizado en flujos de trabajo claros.</p>
+        </div>
+        
+        <div class="features-grid">
+            <div class="feature-card glass-panel">
+                <div class="icon-wrapper">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                </div>
+                <h3>Generación Automatizada</h3>
+                <p>Crea documentos oficiales (constancias, comunicados, citaciones) en segundos a partir de plantillas Word con formato institucional estándar, sustituyendo variables automáticamente.</p>
+            </div>
+            <div class="feature-card glass-panel">
+                <div class="icon-wrapper">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"></path></svg>
+                </div>
+                <h3>Actas de Sesión JAL</h3>
+                <p>Gestiona transcripciones de audio, extrae compromisos y proposiciones de forma automática, y controla la asistencia en espacios centralizados.</p>
+            </div>
+            <div class="feature-card glass-panel">
+                <div class="icon-wrapper">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                </div>
+                <h3>Servicio Social</h3>
+                <p>Módulo especializado para la emisión de certificados de servicio social en base a las horas cursadas, filtrando por instituciones de educación superior autorizadas.</p>
+            </div>
+            <div class="feature-card glass-panel">
+                <div class="icon-wrapper">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                </div>
+                <h3>Trazabilidad y Reportes</h3>
+                <p>Conserva un historial trazable en Excel. Todos los documentos generados son organizados automáticamente por tipo, fecha y persona, ideal para rendición de cuentas.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="section download-section">
+        <div class="download-container glass-panel">
+            <h2>Descarga el Programa</h2>
+            <p>El Gestor de Documentos JAL se distribuye como un archivo comprimido (.zip) que contiene el ejecutable listo para usar en tu equipo.</p>
+            <div class="download-box">
+                <div class="version-info">
+                    <strong>Versión:</strong> 1.0.0 (Latest Release)
+                    <br>
+                    <strong>Sistema:</strong> Windows 10 / 11 (64-bits)
+                </div>
+                <a href="downloads/JAL_Gestor_Documentos.zip" download="JAL_Gestor_Documentos.zip" class="btn-primary btn-large">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="24" height="24" style="margin-right: 8px;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                    Descargar Archivo (.zip)
+                </a>
+            </div>
+            <p class="download-note">Nota: Requiere Microsoft Word instalado en el sistema para la conversión automática de archivos .docx a formato PDF.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Junta Administradora Local Comuna 12. Gestor de Documentos JAL.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
